@@ -1,0 +1,118 @@
+.project-area {
+  background-image: url('../../../assets/slider/parallax02.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.project-area .overlay {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.section-header {
+  margin-bottom: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.section-header .first-headline {
+  position: relative;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: justify;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  margin-bottom: 25px;
+  padding: 0 15px 0 40px;
+}
+
+.section-header .second-headline {
+  font-size: 34px;
+  position: relative;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: justify;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  padding: 0 15px 0 40px;
+}
+
+.value {
+  padding-left: 20%;
+  list-style: none;
+  font-size: 14pt;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  /*font-family: "Gotham", sans-serif;*/
+  font-family: Averta, Arial, sans-serif;
+  line-height: 1.5;
+  text-align: start;
+}
+
+.value i {
+  color: #F07300;
+}
+
+.value .fa {
+  margin-right: 7px;
+}
+
+/*what us*/
+.section-why-us {
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+.section-why-us .second-headline {
+  font-size: 34px;
+  position: relative;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: justify;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  padding: 0 15px 0 40px;
+}
+
+.box {
+  margin-bottom: 30px;
+  padding-left: 10%;
+}
+
+.box .icon {
+  float: left;
+}
+
+.box .icon i {
+  color: #F07300;
+  font-size: 40px;
+  line-height: 1;
+  transition: 0.5s;
+}
+
+.box .title {
+  margin-left: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.box .title a {
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+.box .box:hover .title a {
+  color: #111111;
+}
+
+.box .description {
+  font-size: 14px;
+  margin-left: 60px;
+  line-height: 24px;
+  margin-bottom: 0;
+  color: #f2f2f2;
+}

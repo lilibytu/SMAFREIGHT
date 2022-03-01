@@ -1,0 +1,122 @@
+/* Contact Section
+--------------------------------*/
+.contacts{
+  background-image: url('../../../assets/images/world-map.png');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.contacts .overlay {
+  padding: 50px 0;
+  background: rgba(255, 255, 255, 0.6);
+}
+ .section-header {
+  padding-bottom: 30px;
+}
+ .container{
+  z-index: 10;
+}
+
+ .contact-about h3 {
+  font-size: 36px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #0286EA;
+}
+
+ .contact-about p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Montserrat", sans-serif;
+  color: #888;
+}
+
+ .social-links {
+  padding-bottom: 20px;
+}
+
+ .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #fff;
+  color: #0286EA;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  border: 1px solid #0286EA;
+}
+
+ .social-links a:hover {
+  background: #f37021;
+  color: #fff;
+}
+
+ .info {
+  color: #283d50;
+}
+
+ .info i {
+  font-size: 32px;
+  color: #0286EA;
+  float: left;
+  line-height: 1;
+}
+
+ .info p {
+  padding: 0 0 10px 36px;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+ .second-button {
+  border: #0286EA solid 4px;
+  border-radius: 2px;
+  color: #ffffff;
+  background-color: #0286EA;
+  font-weight: 500;
+}
+.example-full-width{
+  width: 100%;
+}
+.mat-card{
+  border-radius: 10px;
+}
+
+.section-header {
+  margin-bottom: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.section-header .second-headline {
+  font-size: 34px;
+  position: relative;
+  padding: 0;
+  color: #0a0a0a;
+  margin-bottom: 1px;
+  font-weight: 700;
+  line-height: 1.1;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+
+.cg__symbol {
+  margin-top: 0;
+  margin-bottom: 10px;
+  display: block;
+}
+.cg__symbol span {
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  background-color: #0d5195;
+}

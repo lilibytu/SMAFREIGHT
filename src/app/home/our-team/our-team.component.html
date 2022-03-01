@@ -1,0 +1,35 @@
+<section class="team-area">
+  <div class="overlay">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header"  data-aos="fade-up">
+            <h3 class="second-headline">OUR TEAM</h3>
+            <h3 class="first-headline">Meet our Team</h3>
+            <span class="cg__symbol">
+									<span></span>
+								</span>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center"  data-aos="fade-up">
+        <div *ngFor="let member of members" class="col-md-4 col-lg-4">
+          <mat-card>
+            <img mat-card-image src="{{member.thumbImage}}" alt="SMA FREIGHT">
+            <mat-card-title style="text-align: center">
+              <span class="memberName">{{member.title}}</span>
+            </mat-card-title>
+            <mat-card-subtitle>
+              <p class="memberPosition mb-0">
+                {{member.content}}
+              </p>
+              <p class="memberEmail"><i class="fa fa-envelope-o"></i>
+                {{member.email}}
+              </p>
+            </mat-card-subtitle>
+          </mat-card>
+        </div>
+      </div>
+  </div>
+    </div>
+</section>

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "firstapp-24676": {
+      "hosting": {
+        "smafreight": [
+          "firstapp-24676"
+        ]
+      }
+    }
+  }
+}

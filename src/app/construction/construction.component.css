@@ -1,0 +1,68 @@
+.construction .title{
+  background-image: none;
+  font-size: 4.0625rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 70px 89px 0;
+  text-align: center;
+}
+.construction .description{
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #0286EA;
+}
+@media  only screen and (max-width: 767px) {
+  .construction .title{
+    background-image: none;
+    font-size: 1.625rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 60px 0 0;
+    text-align: center;
+  }
+  .top-header-phone {
+    margin-bottom: 10px;
+  }
+  .construction .image img{
+width: 100%;
+  }
+}
+
+.header-top {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1;
+  background-color: #2a2a2e;
+}
+.top-header-social {
+  text-align: center;
+}
+.top-header-social span {
+  font-size: 16px;
+  color: white;
+}
+.top-header-social a {
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #2f2c52;
+}
+.top-header-social i {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 8px;
+  margin-right: 8px;
+  color:#0286EA;
+}
+.top-header-phone i{
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 8px;
+  margin-right: 8px;
+  color:#0286EA;
+}
+.top-header-phone span{
+  font-size: 16px;
+  color: white;
+}
